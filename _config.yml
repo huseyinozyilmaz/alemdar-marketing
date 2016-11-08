@@ -26,8 +26,8 @@ github_username:  jekyll
 
 # Build settings
 # production/development
-#mode: production
-mode: development
+mode: production
+#mode: development
 # Build settings
 permalink: /posts/:title/
 
