@@ -1,17 +1,12 @@
 $(document).ready(function(){
 
-
 	$("#portfolio-contant-active").mixItUp();
-
 
 	$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 500,      
 	    singleItem:true,
 	    autoPlay: 3000,
 	});
-
-
-
 
 	$("#clients-logo").owlCarousel({
 		autoPlay: 3000,
@@ -27,17 +22,6 @@ $(document).ready(function(){
 		itemsDesktopSmall : [979,5],
 	});
 
-
-	// google map
-		var map;
-		function initMap() {
-		  map = new google.maps.Map(document.getElementById('map'), {
-		    center: {lat: -34.397, lng: 150.644},
-		    zoom: 8
-		  });
-		}
-
-
 	// Counter
 
 	$('.counter').counterUp({
@@ -45,9 +29,4 @@ $(document).ready(function(){
         time: 1000
     });
 
-
 });
-
-
-
-
